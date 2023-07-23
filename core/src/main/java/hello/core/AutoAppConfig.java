@@ -15,8 +15,6 @@ import org.springframework.context.annotation.FilterType;
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 )
 public class AutoAppConfig {
-
-    // 스프링에 중복된 bean이 등록될 시 Test
 //    @Bean(name = "memoryMemberRepository")
 //    MemberRepository memberRepository(){
 //        return new MemoryMemberRepository();

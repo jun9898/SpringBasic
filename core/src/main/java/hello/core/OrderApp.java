@@ -11,6 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class OrderApp {
     public static void main(String[] args) {
 
+//        스프링 빈을 사용하지 않고 순수 코드로 의존성을 설정하는 방법.
 //        AppConfig appConfig = new AppConfig();
 //        memberService = appConfig.memberService();
 //        orderService = appConfig.orderService();
