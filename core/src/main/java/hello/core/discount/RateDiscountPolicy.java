@@ -1,10 +1,19 @@
 package hello.core.discount;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+// Qualifier 어노테이션을 사용해서 해당 빈에 이름을 붙여줄 수 있다.
+//@Qualifier("mainDiscountPolicy")
+// 얘는 붙어있으면 최우선으로 선택됨
+@Primary
+
+//@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
