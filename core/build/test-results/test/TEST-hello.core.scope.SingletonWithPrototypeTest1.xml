@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scope.SingletonWithPrototypeTest1" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-26T12:28:44" hostname="DESKTOP-PC1U2B2" time="0.767">
+  <properties/>
+  <testcase name="prototypeFind()" classname="hello.core.scope.SingletonWithPrototypeTest1" time="0.767"/>
+  <system-out><![CDATA[PrototypeBean.inithello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@2783717b
+PrototypeBean.inithello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@117e0fe5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
