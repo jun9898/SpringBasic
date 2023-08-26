@@ -21,4 +21,9 @@ public class MemberServiceImpl implements MemberService{
         return memberRepository.findById(memberId);
         // Repository의 findById 메소드에 memberId값을 넘겨 Member 객체를 호출한다.
     }
+
+    // 테스트 용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 }
